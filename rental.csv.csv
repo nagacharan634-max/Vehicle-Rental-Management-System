@@ -1,0 +1,4 @@
+"RENTAL_ID","BOOKING_ID","VEHICLE_ID","PICKUP_DATE","RETURN_DATE","TOTAL_AMOUNT","RENTAL_STATUS"
+"1","1","1","15-AUG-26","17-AUG-26","1000","Completed"
+"2","2","2","16-AUG-26","","6000","Active"
+"3","4","4","20-AUG-26","","2800","Active"

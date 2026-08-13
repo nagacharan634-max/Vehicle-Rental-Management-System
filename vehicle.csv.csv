@@ -1,0 +1,6 @@
+"VEHICLE_ID","VEHICLE_NO","BRAND","MODEL","VEHICLE_TYPE","RENTAL_RATE","STATUS","CATEGORY_ID"
+"3","AP03EF9012","Hyundai","Creta","SUV","2500","Available","3"
+"4","AP04GH3456","Maruti","Swift","Sedan","1400","Available","2"
+"5","AP05IJ7890","BMW","3 Series","Luxury Car","5000","Available","4"
+"1","AP01AB1234","Honda","Activa 6G","Bike","500","Available","1"
+"2","AP02CD5678","Toyota","Etios","Sedan","1500","Available","2"

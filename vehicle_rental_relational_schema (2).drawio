@@ -1,0 +1,211 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="vehicle-rental-schema" name="Vehicle Rental Schema">
+    <mxGraphModel dx="1548" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="CUSTOMER" vertex="1">
+          <mxGeometry height="206" width="310" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Customer_ID" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Name" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Phone" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Email" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Address" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_5" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Driving_License_No" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="EMPLOYEE" vertex="1">
+          <mxGeometry height="178" width="310" x="50" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Employee_ID" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Name" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Phone" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Email" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Role" vertex="1">
+          <mxGeometry height="28" width="310" x="50" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="BOOKING" vertex="1">
+          <mxGeometry height="234" width="350" x="430" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Booking_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Customer_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Vehicle_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Booking_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Start_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_5" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="End_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_6" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Booking_Status" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="VEHICLE" vertex="1">
+          <mxGeometry height="262" width="350" x="900" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Vehicle_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Vehicle_No" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Brand" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Model" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Vehicle_Type" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_5" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Rental_Rate" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_6" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Status" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_7" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Category_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="VEHICLE_CATEGORY" vertex="1">
+          <mxGeometry height="150" width="350" x="900" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="t6_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Category_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="t6_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Category_Name" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="t6_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Description" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="t6_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Base_Rate" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="t7" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="RENTAL" vertex="1">
+          <mxGeometry height="234" width="350" x="430" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Rental_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Booking_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Employee_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Pickup_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="592" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Return_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_5" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Total_Amount" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="t7_6" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Rental_Status" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="t8" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="MAINTENANCE" vertex="1">
+          <mxGeometry height="206" width="350" x="900" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t8_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Maintenance_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="t8_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Vehicle_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="t8_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Service_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="t8_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Description" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="t8_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Cost" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="t8_5" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Next_Service_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="900" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="t9" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#000000;fontStyle=1;fontSize=16;" value="PAYMENT" vertex="1">
+          <mxGeometry height="206" width="350" x="430" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="t9_0" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="PK Payment_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="858" as="geometry" />
+        </mxCell>
+        <mxCell id="t9_1" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="FK Rental_ID" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="t9_2" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Payment_Date" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="t9_3" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Amount" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="t9_4" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Payment_Method" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="t9_5" parent="1" style="text;html=1;strokeColor=#000000;align=left;verticalAlign=middle;spacingLeft=8;whiteSpace=wrap;" value="Payment_Status" vertex="1">
+          <mxGeometry height="28" width="350" x="430" y="998" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="t2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t4" value="1 : M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="t4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t5" value="M : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="t4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t7" value="1 : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="t3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t7" value="1 : M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="t7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t5" value="M : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="t6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t5" value="1 : M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="t5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t8" value="1 : M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="t7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" target="t9" value="1 : M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=22;whiteSpace=wrap;" value="VEHICLE RENTAL MANAGEMENT SYSTEM — RELATIONAL SCHEMA" vertex="1">
+          <mxGeometry height="50" width="800" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;whiteSpace=wrap;" value="PK = Primary Key &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp; FK = Foreign Key &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp; 1:M = One-to-Many &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp; 1:1 = One-to-One" vertex="1">
+          <mxGeometry height="40" width="800" x="250" y="1010" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

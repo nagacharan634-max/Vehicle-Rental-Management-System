@@ -1,0 +1,6 @@
+"BOOKING_ID","CUSTOMER_ID","VEHICLE_ID","BOOKING_DATE","START_DATE","END_DATE","BOOKING_STATUS"
+"1","1","1","12-AUG-26","15-AUG-26","17-AUG-26","Confirmed"
+"2","2","2","12-AUG-26","16-AUG-26","20-AUG-26","Confirmed"
+"3","3","3","12-AUG-26","18-AUG-26","21-AUG-26","Pending"
+"4","4","4","12-AUG-26","20-AUG-26","22-AUG-26","Confirmed"
+"5","5","5","12-AUG-26","25-AUG-26","27-AUG-26","Pending"

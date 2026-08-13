@@ -1,0 +1,6 @@
+"MAINTENANCE_ID","VEHICLE_ID","SERVICE_DATE","DESCRIPTION","COST","NEXT_SERVICE_DATE"
+"1","1","10-JUL-26","Engine oil change and general service","1200","10-OCT-26"
+"2","2","15-JUL-26","Brake inspection and tyre rotation","2500","15-OCT-26"
+"3","3","20-JUL-26","Full service and engine check","4500","20-OCT-26"
+"4","4","25-JUL-26","Oil change","1500","25-OCT-26"
+"5","5","01-AUG-26","Premium vehicle inspection","6000","01-NOV-26"

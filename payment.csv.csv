@@ -1,0 +1,5 @@
+"PAYMENT_ID","RENTAL_ID","PAYMENT_DATE","AMOUNT","PAYMENT_METHOD","PAYMENT_STATUS"
+"1","1","12-AUG-26","1000","UPI","Paid"
+"2","2","12-AUG-26","3000","Card","Paid"
+"3","2","12-AUG-26","3000","UPI","Paid"
+"4","3","12-AUG-26","1400","Cash","Paid"
